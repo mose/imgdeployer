@@ -3,13 +3,15 @@ Experimental AWS deployer
 
 This is merely a playground. Unfinished, imperfect, sloppy code. For educational purpose only.
 
-It gets aws credentials and create a t2.micro instance with an image of wordpress from Bitnami (while recommended vm size is actually m3.medium), using ruby aws-sdk.
+It gets aws credentials and create a t2.micro instance with an image of wordpress from Bitnami (while recommended vm size is actually m3.medium), using ruby aws-sdk (api v3).
 
 Install
 --------
 
 Get the code and
 
+    git clone https://github.com/mose/imgdeployer.git
+    cd imgdeployer/
     bundle install
 
 Then launch it
