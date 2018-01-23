@@ -1,0 +1,21 @@
+<p>
+  Please provide your AWS key and secret. They will be recorded for the time of your session.
+</p>
+
+<form action="/login" method="POST" class="form-horizontal">
+  <div class="form-group">
+    <label for="key" class="col-md-2 control-label">AWS Key</label>
+    <div class="col-md-10"><input type="text" name="key" id="key" value="" class="form-control" /></div>
+  </div>
+  <div class="form-group">
+    <label for="sec" class="col-md-2 control-label">AWS Secret</label>
+    <div class="col-md-10"><input type="password" name="sec" id="sec" value="" class="form-control" /></div>
+  </div>
+  <div class="form-group">
+    <div class="col-md-10 col-md-offset-2">
+      <button class="btn btn-primary">
+        <span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Save
+      </button>
+    </div>
+  </div>
+</form>

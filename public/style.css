@@ -1,0 +1,12 @@
+body {
+  padding-top: 70px;
+}
+#actions button {
+  display: none;
+}
+#status {
+  display: none;
+}
+#loader, #instance-loader, #system-loader {
+  margin-right: 5px;
+}
