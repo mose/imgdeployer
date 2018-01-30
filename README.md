@@ -22,6 +22,14 @@ or in dev with a reload at each code change
 
     shotgun
 
+Run in docker
+--------------
+
+    git clone https://github.com/mose/imgdeployer.git
+    cd imgdeployer/
+    docker build -t mose/imgdeployer .
+    docker run -d -v "$PWD:/src" -p 9393:9393 mose/imgdeployer:latest -o 0.0.0.0
+    open http://localhost:9393
 
 So what now?
 -------------
